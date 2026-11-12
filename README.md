@@ -1,20 +1,56 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# EV Battery Health Companion
 
-# Run and deploy your AI Studio app
+A React and TypeScript application for monitoring EV battery health, estimating State of Health (SOH), and analysing battery performance.
 
-This contains everything you need to run your app locally.
+## Run the Project in VS Code
 
-View your app in AI Studio: https://ai.studio/apps/bdadbd91-a0f0-493b-8327-a87e8504af77
+### 1. Prerequisites
+Install:
+- [Node.js](https://nodejs.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/)
 
-## Run Locally
+### 2. Clone the GitHub Repository
 
-**Prerequisites:**  Node.js
+Open Terminal and run:
 
+```bash
+git clone https://github.com/sneha161109/ev-battery-health.git
+cd ev-battery-health
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 3. Open in VS Code
+
+```bash
+code .
+```
+
+Alternatively, open VS Code and select **File → Open Folder**, then choose the `ev-battery-health` folder.
+
+### 4. Install Dependencies
+
+Open the VS Code terminal (**Terminal → New Terminal**) and run:
+
+```bash
+npm install
+```
+
+### 5. Start the Application
+
+```bash
+npm run dev
+```
+
+Open the application in your browser:
+
+**http://localhost:3000**
+
+Press `Ctrl + C` in the terminal to stop the application.
+
+## Production Build
+
+To create a production build:
+
+```bash
+npm run build
+```
