@@ -1,0 +1,6 @@
+{
+  "name": "EV Battery Telemetry – Battery Health Companion",
+  "description": "Automotive-grade electric vehicle battery health analytics, state-of-health (SOH) prediction, cycle degradation telemetry, and actionable diagnostics inspired by motorsport telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
